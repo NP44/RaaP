@@ -1,0 +1,203 @@
+#header {
+font-size: 24px;
+font-color: white bold;
+float: right;
+padding-right: 50px;
+padding-left: 20px;
+
+
+}
+
+ .image {
+   position: relative; 
+   width: 23%; /* for IE 6 */
+   margin: 0px;
+   background-color: white;
+
+  }
+
+#logo {
+	position: relative;
+	padding-left: 100px;
+	margin-top: 20px;
+ 
+}
+ 
+h2 { 
+   position: absolute; 
+   font-size: 20px;
+   top: 488px; 
+   left: 695px; 
+   width: 55%; 
+    
+      }
+
+
+h3 { 
+  position: absolute; 
+   top: 300px; 
+   left: 1450px; 
+   width: 20%; 
+
+}
+h2 { 
+   font-color: white; 
+   font: 35px  Georgia, Serif; 
+   letter-spacing: 0.2em;  
+   background-color: none;
+   padding: 10px; 
+   a:link; {color: black; text-decoration: none;}  
+
+}
+
+h3 { 
+  color: white; 
+   font: 45px  Georgia, Serif; 
+   letter-spacing: 0.2em;  
+   background: color: black;
+   padding: 0px;
+}
+
+a:link {color: green; text-decoration: none;} a:visited {color: green;} a:hover {color: gold;} a:active {color: green;} 
+
+
+
+/*---hex Mapping--*/
+
+
+#hx {
+ position: absolute; 
+   top: 310px; 
+   left: 1525px; 
+   height:4%;
+   width: 10%;
+   color: black; 
+   font: 32px/45px Georgia, Serif; 
+   letter-spacing: -0.4px;  
+   text-decoration: none;
+   }
+
+#DisC {
+ position: absolute; 
+   top: 910px; 
+   left: 625px; 
+   height:4%;
+   width: 10%;
+   color: black; 
+   font: 22px/45px Georgia, Serif; 
+   letter-spacing: -0.4px;  
+   text-decoration: none;
+   }
+
+#hxagon {
+ position: absolute; 
+   top: 355px; 
+   left: 165px; 
+   height:4%;
+   width: 10%;
+   color: black; 
+   font: 22px/45px Georgia, Serif; 
+   letter-spacing: -0.4px;  
+   text-decoration: none;
+   }
+
+
+
+/*---hex Mapping- END-*/
+
+
+
+/*---hex Sensitive Data--*/
+
+#hxagon1 {
+ position: absolute; 
+   top: 545px; 
+   left: 290px; 
+   height:4%;
+   width: 10%;
+   color: black bold; 
+   font: 22px/45px Georgia, Serif; 
+   letter-spacing: -0.4px;  
+ 
+             }
+
+
+
+/*---hex- END-*/
+
+
+
+
+#hxagon2 {
+ position: absolute; 
+   top: 545px; 
+   left: 35px; 
+   height:4%;
+   letter-spacing: 9px;
+   width: 10%;
+   color: black; 
+   font: 22px/45px Georgia, Serif; 
+   letter-spacing: -0.4px;  
+    
+          }
+
+
+
+/*---hex open data- END-*/
+
+
+/*---Reg--*/
+
+#hxagon3 {
+ position: absolute; 
+   top: 765px; 
+   left: 170px; 
+  height:4%;
+   width: 10%;
+   color: black; 
+   font: 22px/45px Georgia, Serif; 
+   letter-spacing: -0.4px;  
+   
+          }
+
+
+/*---Reg- END-*/
+}
+
+
+
+
+
+
+
+
+
+/* -----------Smartphone View----------- */ 
+@media only screen and (max-width : 480px)   {
+
+   /* All  smartphone rules go inside here */
+
+}
+
+/* -----------Smartphone View----------- */ 
+@media only screen and (max-width : 480px)   {
+
+   #sidebar {
+      display: none;
+   }
+   
+   #content {
+      width: 300px;
+   }
+   
+   #header {
+      display: none;
+   }
+
+}
+/* -----------Tablet View----------- */ 
+@media only screen and (max-width : 650px) and (min-width : 481px)   {
+
+   /* All your tablet rules go inside here */
+
+}
